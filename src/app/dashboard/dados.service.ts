@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { observable, Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ export class DadosService {
     ['Março', 49],
     ['Abril', 15],
     ['Maio', 80],
-    ['Junho', 27],
+    ['Junho', 27]
   ];
 
   constructor() { }

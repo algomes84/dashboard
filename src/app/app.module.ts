@@ -10,7 +10,7 @@ import { DashboardModule } from './dashboard';
   ],
   imports: [
     BrowserModule,
-    DashboardModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
